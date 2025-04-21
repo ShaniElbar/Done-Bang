@@ -1,0 +1,96 @@
+.arvo-regular {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .arvo-bold {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .arvo-regular-italic {
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .arvo-bold-italic {
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+  *{
+    font-family: "Arvo", serif;
+  }
+
+  /* font-family: "Wix Madefor Text", sans-serif; */
+
+  input[type="file"] {
+    display: none;
+}
+
+
+.input-field.error{
+  border: 1.5px solid red;
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+  height: 10px;
+}
+
+.wix{
+  font-family: "Wix Madefor Text", sans-serif;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #929292, #484848);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #D5D5D5;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #a0a0a0, #707070);
+  cursor: pointer;
+}
+::-webkit-scrollbar-track-piece {
+  background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 14l5-5 5 5z" fill="%23888"/></svg>') no-repeat center;
+  background-size: contain;
+}
+
+
+#hidden-add{
+  display: none;
+  
+  
+}
+
+
+.custom::placeholder{
+  color: #374151;
+}
+
+
+.draggable-item {
+  transition: background 0.3s ease-in-out;
+}
+
+.draggable-item:active {
+  background: rgba(0, 123, 255, 0.2); 
+}
+.moreProject {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.menuHover:hover .moreProject,
+.moreProject:hover {
+  opacity: 1;
+}
